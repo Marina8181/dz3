@@ -34,13 +34,14 @@ import Footer from '@/components/Footer.vue'
   </div>
 </template>
 
-<style scoped lang="scss">
+<style>
 :root {
   --font-family-one: 'Open Sans', sans-serif;
   --font-family-two: 'Montserrat', sans-serif;
   font-family: var(--font-family-two), sans-serif;
 }
-
+</style>
+<style scoped lang="scss">
 .container {
   display: flex;
   gap: 10px;
